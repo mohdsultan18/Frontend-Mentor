@@ -2,6 +2,7 @@ body {
     background-color: hsl(212, 45%, 89%);
     display: grid;
     place-items: center;
+    min-height:100vh 
 }
 .container {
     background-color: hsl(0, 0%, 100%);
@@ -12,7 +13,6 @@ body {
     padding: 15px;
     display: flex;
     flex-direction : column;
-    margin: 120px;
 }
 .main_image {
     border-radius: 3%;
